@@ -9,10 +9,12 @@
 /* Begin PBXBuildFile section */
 		3F443D381A1A719600C2D584 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F443D371A1A719600C2D584 /* AppDelegate.swift */; };
 		3F443D3A1A1A719600C2D584 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F443D391A1A719600C2D584 /* ViewController.swift */; };
-		3F443D3D1A1A719600C2D584 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F443D3B1A1A719600C2D584 /* Main.storyboard */; };
 		3F443D3F1A1A719600C2D584 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F443D3E1A1A719600C2D584 /* Images.xcassets */; };
 		3F443D421A1A719600C2D584 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F443D401A1A719600C2D584 /* LaunchScreen.xib */; };
 		3F443D4E1A1A719600C2D584 /* Podio_Dev_TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F443D4D1A1A719600C2D584 /* Podio_Dev_TestTests.swift */; };
+		3F443D581A1A73A800C2D584 /* PodioApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F443D571A1A73A800C2D584 /* PodioApi.swift */; };
+		3F443D5A1A1A8B1100C2D584 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F443D591A1A8B1100C2D584 /* Model.swift */; };
+		3FED76221A1AB56A009F7E52 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FED76211A1AB56A009F7E52 /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,12 +32,14 @@
 		3F443D361A1A719600C2D584 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3F443D371A1A719600C2D584 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3F443D391A1A719600C2D584 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		3F443D3C1A1A719600C2D584 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3F443D3E1A1A719600C2D584 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		3F443D411A1A719600C2D584 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		3F443D471A1A719600C2D584 /* Podio Dev TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Podio Dev TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F443D4C1A1A719600C2D584 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3F443D4D1A1A719600C2D584 /* Podio_Dev_TestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Podio_Dev_TestTests.swift; sourceTree = "<group>"; };
+		3F443D571A1A73A800C2D584 /* PodioApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PodioApi.swift; sourceTree = "<group>"; };
+		3F443D591A1A8B1100C2D584 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		3FED76211A1AB56A009F7E52 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,10 +83,12 @@
 			children = (
 				3F443D371A1A719600C2D584 /* AppDelegate.swift */,
 				3F443D391A1A719600C2D584 /* ViewController.swift */,
-				3F443D3B1A1A719600C2D584 /* Main.storyboard */,
 				3F443D3E1A1A719600C2D584 /* Images.xcassets */,
 				3F443D401A1A719600C2D584 /* LaunchScreen.xib */,
 				3F443D351A1A719600C2D584 /* Supporting Files */,
+				3F443D571A1A73A800C2D584 /* PodioApi.swift */,
+				3F443D591A1A8B1100C2D584 /* Model.swift */,
+				3FED76211A1AB56A009F7E52 /* LoginViewController.swift */,
 			);
 			path = "Podio Dev Test";
 			sourceTree = "<group>";
@@ -192,7 +198,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F443D3D1A1A719600C2D584 /* Main.storyboard in Resources */,
 				3F443D421A1A719600C2D584 /* LaunchScreen.xib in Resources */,
 				3F443D3F1A1A719600C2D584 /* Images.xcassets in Resources */,
 			);
@@ -212,8 +217,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F443D581A1A73A800C2D584 /* PodioApi.swift in Sources */,
 				3F443D3A1A1A719600C2D584 /* ViewController.swift in Sources */,
 				3F443D381A1A719600C2D584 /* AppDelegate.swift in Sources */,
+				3FED76221A1AB56A009F7E52 /* LoginViewController.swift in Sources */,
+				3F443D5A1A1A8B1100C2D584 /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,14 +244,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		3F443D3B1A1A719600C2D584 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3F443D3C1A1A719600C2D584 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		3F443D401A1A719600C2D584 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -405,6 +405,7 @@
 				3F443D531A1A719600C2D584 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3F443D541A1A719600C2D584 /* Build configuration list for PBXNativeTarget "Podio Dev TestTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +414,7 @@
 				3F443D561A1A719600C2D584 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
