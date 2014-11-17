@@ -23,9 +23,6 @@ class PodioApi: NSObject {
     private let session:NSURLSession
     private let baseUrl = NSURL(string: "https://api.podio.com")
     
-    private let username = "karlofk@gmail.com"
-    private let password = "0sarkasme"
-    
     private let apiKey = "karlo-podio-test"
     private let apiSecret = "20Q67x9ljXTLp6DtksioXM5LxKWDkNJoOxwl28AHB61f5NekLvZ743JqeErApetQ"
     
