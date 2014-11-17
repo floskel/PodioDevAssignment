@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F443D381A1A719600C2D584 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F443D371A1A719600C2D584 /* AppDelegate.swift */; };
+		3F443D3A1A1A719600C2D584 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F443D391A1A719600C2D584 /* ViewController.swift */; };
+		3F443D3D1A1A719600C2D584 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F443D3B1A1A719600C2D584 /* Main.storyboard */; };
+		3F443D3F1A1A719600C2D584 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F443D3E1A1A719600C2D584 /* Images.xcassets */; };
+		3F443D421A1A719600C2D584 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F443D401A1A719600C2D584 /* LaunchScreen.xib */; };
+		3F443D4E1A1A719600C2D584 /* Podio_Dev_TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F443D4D1A1A719600C2D584 /* Podio_Dev_TestTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F443D481A1A719600C2D584 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F443D2A1A1A719600C2D584 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F443D311A1A719600C2D584;
+			remoteInfo = "Podio Dev Test";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3F443D321A1A719600C2D584 /* Podio Dev Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Podio Dev Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F443D361A1A719600C2D584 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F443D371A1A719600C2D584 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3F443D391A1A719600C2D584 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3F443D3C1A1A719600C2D584 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F443D3E1A1A719600C2D584 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3F443D411A1A719600C2D584 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		3F443D471A1A719600C2D584 /* Podio Dev TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Podio Dev TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F443D4C1A1A719600C2D584 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F443D4D1A1A719600C2D584 /* Podio_Dev_TestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Podio_Dev_TestTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F443D2F1A1A719600C2D584 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F443D441A1A719600C2D584 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F443D291A1A719600C2D584 = {
+			isa = PBXGroup;
+			children = (
+				3F443D341A1A719600C2D584 /* Podio Dev Test */,
+				3F443D4A1A1A719600C2D584 /* Podio Dev TestTests */,
+				3F443D331A1A719600C2D584 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F443D331A1A719600C2D584 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F443D321A1A719600C2D584 /* Podio Dev Test.app */,
+				3F443D471A1A719600C2D584 /* Podio Dev TestTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F443D341A1A719600C2D584 /* Podio Dev Test */ = {
+			isa = PBXGroup;
+			children = (
+				3F443D371A1A719600C2D584 /* AppDelegate.swift */,
+				3F443D391A1A719600C2D584 /* ViewController.swift */,
+				3F443D3B1A1A719600C2D584 /* Main.storyboard */,
+				3F443D3E1A1A719600C2D584 /* Images.xcassets */,
+				3F443D401A1A719600C2D584 /* LaunchScreen.xib */,
+				3F443D351A1A719600C2D584 /* Supporting Files */,
+			);
+			path = "Podio Dev Test";
+			sourceTree = "<group>";
+		};
+		3F443D351A1A719600C2D584 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3F443D361A1A719600C2D584 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3F443D4A1A1A719600C2D584 /* Podio Dev TestTests */ = {
+			isa = PBXGroup;
+			children = (
+				3F443D4D1A1A719600C2D584 /* Podio_Dev_TestTests.swift */,
+				3F443D4B1A1A719600C2D584 /* Supporting Files */,
+			);
+			path = "Podio Dev TestTests";
+			sourceTree = "<group>";
+		};
+		3F443D4B1A1A719600C2D584 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3F443D4C1A1A719600C2D584 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F443D311A1A719600C2D584 /* Podio Dev Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F443D511A1A719600C2D584 /* Build configuration list for PBXNativeTarget "Podio Dev Test" */;
+			buildPhases = (
+				3F443D2E1A1A719600C2D584 /* Sources */,
+				3F443D2F1A1A719600C2D584 /* Frameworks */,
+				3F443D301A1A719600C2D584 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Podio Dev Test";
+			productName = "Podio Dev Test";
+			productReference = 3F443D321A1A719600C2D584 /* Podio Dev Test.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3F443D461A1A719600C2D584 /* Podio Dev TestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F443D541A1A719600C2D584 /* Build configuration list for PBXNativeTarget "Podio Dev TestTests" */;
+			buildPhases = (
+				3F443D431A1A719600C2D584 /* Sources */,
+				3F443D441A1A719600C2D584 /* Frameworks */,
+				3F443D451A1A719600C2D584 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F443D491A1A719600C2D584 /* PBXTargetDependency */,
+			);
+			name = "Podio Dev TestTests";
+			productName = "Podio Dev TestTests";
+			productReference = 3F443D471A1A719600C2D584 /* Podio Dev TestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F443D2A1A1A719600C2D584 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = floskel;
+				TargetAttributes = {
+					3F443D311A1A719600C2D584 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					3F443D461A1A719600C2D584 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 3F443D311A1A719600C2D584;
+					};
+				};
+			};
+			buildConfigurationList = 3F443D2D1A1A719600C2D584 /* Build configuration list for PBXProject "Podio Dev Test" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F443D291A1A719600C2D584;
+			productRefGroup = 3F443D331A1A719600C2D584 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F443D311A1A719600C2D584 /* Podio Dev Test */,
+				3F443D461A1A719600C2D584 /* Podio Dev TestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F443D301A1A719600C2D584 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F443D3D1A1A719600C2D584 /* Main.storyboard in Resources */,
+				3F443D421A1A719600C2D584 /* LaunchScreen.xib in Resources */,
+				3F443D3F1A1A719600C2D584 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F443D451A1A719600C2D584 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F443D2E1A1A719600C2D584 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F443D3A1A1A719600C2D584 /* ViewController.swift in Sources */,
+				3F443D381A1A719600C2D584 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F443D431A1A719600C2D584 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F443D4E1A1A719600C2D584 /* Podio_Dev_TestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F443D491A1A719600C2D584 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F443D311A1A719600C2D584 /* Podio Dev Test */;
+			targetProxy = 3F443D481A1A719600C2D584 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3F443D3B1A1A719600C2D584 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F443D3C1A1A719600C2D584 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3F443D401A1A719600C2D584 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F443D411A1A719600C2D584 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F443D4F1A1A719600C2D584 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3F443D501A1A719600C2D584 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F443D521A1A719600C2D584 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Podio Dev Test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3F443D531A1A719600C2D584 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Podio Dev Test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3F443D551A1A719600C2D584 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Podio Dev TestTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Podio Dev Test.app/Podio Dev Test";
+			};
+			name = Debug;
+		};
+		3F443D561A1A719600C2D584 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Podio Dev TestTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Podio Dev Test.app/Podio Dev Test";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F443D2D1A1A719600C2D584 /* Build configuration list for PBXProject "Podio Dev Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F443D4F1A1A719600C2D584 /* Debug */,
+				3F443D501A1A719600C2D584 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F443D511A1A719600C2D584 /* Build configuration list for PBXNativeTarget "Podio Dev Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F443D521A1A719600C2D584 /* Debug */,
+				3F443D531A1A719600C2D584 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3F443D541A1A719600C2D584 /* Build configuration list for PBXNativeTarget "Podio Dev TestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F443D551A1A719600C2D584 /* Debug */,
+				3F443D561A1A719600C2D584 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F443D2A1A1A719600C2D584 /* Project object */;
+}
